@@ -11,3 +11,12 @@ spring:
       name: itoken-zipkin
       label: master
       profile: dev
+
+server:
+  port: 9411
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
